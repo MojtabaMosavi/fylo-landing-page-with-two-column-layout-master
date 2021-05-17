@@ -1,0 +1,16 @@
+body {
+  font-size: $Font-size;
+  font-family: $Font-body;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: $Very-Dark-Blue;
+}
+
+.container {
+  @include make-container(1.5rem);
+
+  @media only screen and (min-width: 37.5rem) {
+    @include make-container(5rem);
+  }
+}

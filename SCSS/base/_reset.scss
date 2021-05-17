@@ -1,0 +1,28 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a,
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: unset;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+body {
+  overflow-x: hidden;
+}

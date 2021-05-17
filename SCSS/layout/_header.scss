@@ -1,0 +1,39 @@
+.header {
+  @include flex-container($js-content: space-between);
+  margin-top: 1.5625rem;
+  &__logo {
+    & > img {
+      max-width: 5rem;
+    }
+  }
+
+  &__nav-wrapper {
+    @include flex-container();
+  }
+
+  &__link {
+    & > a {
+      &:hover {
+        font-weight: 700;
+      }
+    }
+  }
+
+  &__link + &__link {
+    margin-left: 1rem;
+
+    @media only screen and (min-width: 40em) {
+      margin-left: 3.69rem;
+    }
+  }
+
+  @media only screen and (min-width: 37.5rem) {
+    margin-top: 4.125rem;
+
+    &__logo {
+      & > img {
+        max-width: 10.375rem;
+      }
+    }
+  }
+}

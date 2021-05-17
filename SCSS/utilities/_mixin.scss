@@ -1,0 +1,14 @@
+@mixin make-container($padding-x) {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $padding-x;
+  padding-right: $padding-x;
+}
+
+@mixin flex-container($al-items: center, $js-content: center, $flex-d: row) {
+  display: flex;
+  flex-direction: $flex-d;
+  align-items: $al-items;
+  justify-content: $js-content;
+}

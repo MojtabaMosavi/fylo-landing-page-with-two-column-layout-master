@@ -1,0 +1,73 @@
+/* || header  */
+.header {
+  font-family: $Font-secondary;
+  font-size: 0.8rem;
+
+  @media only screen and (min-width: 37.5rem) {
+    font-size: 1rem;
+  }
+}
+
+/* || hero  */
+.hero {
+  &__heading {
+    font-size: 1.3rem;
+  }
+
+  &__text {
+    font-size: 0.9rem;
+  }
+
+  @media only screen and (min-width: 62.5em) {
+    &__heading {
+      font-size: 2.4rem;
+    }
+    &__text {
+      font-size: 1.09rem;
+    }
+
+    &__content {
+      text-align: left;
+    }
+  }
+}
+
+/* || feature  */
+
+.feature {
+  &__heading {
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  &__text {
+    font-size: 0.85rem;
+  }
+
+  &__link {
+    font-size: 0.85rem;
+  }
+
+  @media only screen and (min-width: 56.25em) {
+    &__heading {
+      text-align: left;
+      font-size: 2rem;
+    }
+  }
+}
+
+/* || Sign-up*/
+.signup {
+  &__heading {
+    font-size: 1rem;
+  }
+  &__text {
+    font-size: 0.91rem;
+  }
+
+  @media only screen and (min-width: 56.25em) {
+    &__heading {
+      font-size: 2rem;
+    }
+  }
+}
